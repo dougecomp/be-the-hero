@@ -9,7 +9,7 @@ const SessionController = require('./controllers/SessionController');
 const routes = express.Router();
 
 /*routes.get('/', (request, response) => {
-    let queryParams = request.query; // Parâmetros passados na url após ? /users?nome=nomepessoa
+    let queryParams = request.query; // Parâmetros passados na url após ? /users?param=value
     let params = request.params; // Parâmetros nomeados (Ex.: user/:id )
     let body = request.body; // Dados inseridos no corpo da requisição
 
